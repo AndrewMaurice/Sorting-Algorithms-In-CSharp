@@ -1,0 +1,11 @@
+C:\Users\V19AMoris\source\repos\SortingPractice\bin\Debug\netcoreapp2.1\SortingPractice.deps.json
+C:\Users\V19AMoris\source\repos\SortingPractice\bin\Debug\netcoreapp2.1\SortingPractice.runtimeconfig.json
+C:\Users\V19AMoris\source\repos\SortingPractice\bin\Debug\netcoreapp2.1\SortingPractice.runtimeconfig.dev.json
+C:\Users\V19AMoris\source\repos\SortingPractice\bin\Debug\netcoreapp2.1\SortingPractice.dll
+C:\Users\V19AMoris\source\repos\SortingPractice\bin\Debug\netcoreapp2.1\SortingPractice.pdb
+C:\Users\V19AMoris\source\repos\SortingPractice\obj\Debug\netcoreapp2.1\SortingPractice.csprojAssemblyReference.cache
+C:\Users\V19AMoris\source\repos\SortingPractice\obj\Debug\netcoreapp2.1\SortingPractice.csproj.CoreCompileInputs.cache
+C:\Users\V19AMoris\source\repos\SortingPractice\obj\Debug\netcoreapp2.1\SortingPractice.AssemblyInfoInputs.cache
+C:\Users\V19AMoris\source\repos\SortingPractice\obj\Debug\netcoreapp2.1\SortingPractice.AssemblyInfo.cs
+C:\Users\V19AMoris\source\repos\SortingPractice\obj\Debug\netcoreapp2.1\SortingPractice.dll
+C:\Users\V19AMoris\source\repos\SortingPractice\obj\Debug\netcoreapp2.1\SortingPractice.pdb
