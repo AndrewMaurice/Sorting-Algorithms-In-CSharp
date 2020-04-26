@@ -5,20 +5,13 @@ namespace SortingPractice
 {
     class Sort
     {
+        #region Private Methods
+
         private static void Swap(ref int a, ref int b)
         {
             int temp = a;
             a = b;
             b = temp;
-        }
-
-        public static void PrintArr(int[] arr)
-        {
-            for(int i= 0; i <  arr.Length; i++)
-            {
-                Console.Write("{0},", arr[i]);
-            }
-            Console.WriteLine();
         }
 
         private static void MergeArray(int[] arr, int start, int middle, int end)
@@ -31,9 +24,9 @@ namespace SortingPractice
             int j = middle + 1; // to access the second half.
 
             // adding the smallest values on top.
-            while(i < (middle + 1) && j <= end)
+            while (i < (middle + 1) && j <= end)
             {
-                if(arr[i] < arr[j])
+                if (arr[i] < arr[j])
                 {
                     temp.Add(arr[i]);
                     i++;
@@ -46,19 +39,19 @@ namespace SortingPractice
             }
 
             // adding the rest of the array from the left && right sides.
-            while(i < (middle + 1))
+            while (i < (middle + 1))
             {
                 temp.Add(arr[i]);
                 i++;
             }
-            while(j <= (end))
+            while (j <= (end))
             {
                 temp.Add(arr[j]);
                 j++;
             }
 
             // adding these values to the original array.
-            for(i = start; i <= end; i++)
+            for (i = start; i <= end; i++)
             {
                 arr[i] = temp[i - start];
             }
@@ -68,17 +61,30 @@ namespace SortingPractice
         {
             int i = (start - 1);
             int pivot = arr[end];
-            for(int j = start; j < end; j++)
+            for (int j = start; j < end; j++)
             {
-                if(arr[j] <= pivot)
+                if (arr[j] <= pivot)
                 {
                     ++i;
                     Swap(ref arr[j], ref arr[i]);
-                }   
+                }
             }
             Swap(ref arr[i + 1], ref arr[end]);
 
             return (i + 1);
+        }
+
+        #endregion
+
+        #region Public Methods
+
+        public static void PrintArr(int[] arr)
+        {
+            for(int i= 0; i <  arr.Length; i++)
+            {
+                Console.Write("{0},", arr[i]);
+            }
+            Console.WriteLine();
         }
 
         public static int[] InsertionSort(int[] arr)
@@ -160,6 +166,8 @@ namespace SortingPractice
                 QuickSort(arr, (parti + 1), end);
             }
         }
+
+        #endregion
 
 
     }
